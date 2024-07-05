@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  }
+}
